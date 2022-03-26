@@ -1,0 +1,65 @@
+/* pages/list/list.wxss */
+page {
+    display: block;
+    min-height: 100%;
+    background-color: #B3CCF4;
+  }
+.main{
+    background-color:#B3CCF4;
+    height: 100%;
+}
+.tittle {
+    display: flex;
+    justify-content: center; /**内容居中*/
+    vertical-align: center; /**垂直居中*/
+    height: 100rpx;
+}
+.tittle_text {
+    display: flex;
+    font-size: large;
+    margin-top: 2%;
+}
+.table {
+    display: flex;
+    flex-direction: column;     /* 排列形式: 向下 */
+    margin-bottom: 50rpx;
+}
+  
+.tr {
+    display: flex;
+    flex-direction: row;
+}
+
+.th, .td {  /* 公有的属性 */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;            /* 自动换行 */
+    width: 25%;					/* 4个25%相加刚好100% */
+    text-align: center;         /* 文本居中 */
+    justify-content:center;     /* 主轴居中 */
+    align-items: center;        /* 交叉轴居中 */
+    border-top: 1px solid #dadada;      /* 单元格上线框 */
+    border-bottom: 1px solid #dadada;   /* 单元格下线框 */
+    border-left: 1px solid #dadada;     /* 单元格左线框 */
+    border-right: 1px solid #dadada;    /* 单元格右线框 */
+    margin-top: 15rpx;
+    font-size: 35rpx;
+}
+
+.th {
+    font-weight: 800;           /* 字体加重 */
+    background-color:#B3CCF4;   /* 背景色 */
+}
+
+.td {
+    background-color:#edf3e9;   /* 背景色 */
+}
+
+.prompt{
+    position:fixed; 
+    bottom:100rpx; 
+    margin-left: 5%;
+}
+.prompt_text{
+    text-align: center;
+}

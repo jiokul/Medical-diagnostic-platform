@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="main">
+  <view class="useravatar">
+  <open-data class="avatar" type="userAvatarUrl"></open-data>
+</view>
+<view class="prompt">
+  <view class="text">
+   <text class="text1"> 欢迎使用报告查询小程序，请按照下方提示您的输入信息</text>
+  </view>
+</view>
+<form bindsubmit="submit">
+  <view class="userinfo">
+    <view class="userid">
+       <text class="inputid_text">身份证号</text>
+       <input class="inputid" type="idcard" placeholder="请输入您的身份证号"/>
+    </view>
+    <view class="username">
+      <text class="inputname_text">姓名</text>
+      <input class="inputname" type="text" placeholder="请输入您的姓名"/>
+    </view>
+  </view>
+  <view class="submit">
+    <button class="submitbutton" bindtap="gotoPage">查询</button>
+  </view>
+</form>
+</view>

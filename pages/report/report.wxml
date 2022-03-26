@@ -1,0 +1,4 @@
+<!--report.wxml-->
+<view class="main">
+    <text>这是报告</text>
+</view>

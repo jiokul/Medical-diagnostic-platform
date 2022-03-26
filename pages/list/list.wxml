@@ -1,0 +1,35 @@
+<!--list.wxml-->
+<view class="main">
+    <view class="tittle">
+        <text class="tittle_text">检查项目</text>
+    </view>
+    <view class="table">
+        <view class="tr">
+          <view class="th">主治医生</view>
+           <view class="th">检查项目</view>
+           <view class="th">生成时间</view>
+           <view class="th">详细操作</view>
+         </view>
+         <view class="tr">
+           <view class="td">lty</view>
+           <view class="td">息肉检查</view>
+           <view class="td">2020.12.13</view>
+           <navigator  url="/pages/report/report" class="td"><view>查看详情</view></navigator>
+        </view>
+        <view class="tr">
+           <view class="td">lty</view>
+           <view class="td">血管检查</view>
+           <view class="td">2020.12.13</view>
+           <navigator url="/pages/report/report" class="td"><view>查看详情</view></navigator>
+        </view>
+        <view class="tr">
+           <view class="td">lty</view>
+           <view class="td">眼睛检查</view>
+           <view class="td">2020.12.13</view>
+           <navigator  url="/pages/report/report" class="td"><view>查看详情</view></navigator>
+        </view>
+    </view>
+    <view class="prompt">
+        <text class="prompt_text">选择项目点击查看详情进入项目检查报告</text>
+    </view>
+</view>
