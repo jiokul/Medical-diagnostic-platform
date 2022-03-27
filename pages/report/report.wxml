@@ -1,4 +1,56 @@
 <!--report.wxml-->
 <view class="main">
-    <text>这是报告</text>
+    <view class="tittle">
+        <text class="tittle_text1">息肉</text>
+        <text class="tittle_text2">检测报告</text>
+    </view>
+    <view class="line1"></view>
+    <view class="userinfo">
+        <text space="ensp" class="moudel1"> 患者信息</text>
+        <text>\n</text>
+        <view class="userinfo_first">
+            <text class="name1">患者姓名:</text>
+             <text class="user_name">梁廷宇</text>
+             <text class="name2">主治医生:</text>
+             <text class="user_doctor">洛天依</text>
+             <text>\n</text>
+        </view>
+        <view class="userinfo_second">
+            <text class="project">检查项目:</text>
+            <text class="user_project">息肉</text>
+            <text>检测</text>
+            <text class="time">报告时间:</text>
+            <text class="user_time">2012.02.03</text>
+        </view>
+    </view>
+    <view class="images1">
+        <text space="ensp" class="moudel2"> 诊断影像\n</text>
+        <view class="image_riginally">
+            <image class="image_first" src="data:image/png;base64,{{imgData}}"></image>
+            <text>\n原图</text>
+        </view>
+        <view class="imgae_segmentation">
+            <image class="image_second" src="data:image/png;base64,{{imgData2}}"></image>
+            <text>\n分割图片</text>
+        </view>
+    </view>
+    <view>
+    </view>
+    <view class="diagnosis_result">
+        <text space="ensp" class="moudel1"> 诊断结果</text>
+        <text>\n</text>
+        <view class="doctor_result">
+            <rich-text nodes="{{article_content}}"></rich-text>
+        </view>
+    </view>
+    <view class="diagnosis_advise">
+        <text space="ensp" class="moudel1"> 医生建议</text>
+        <text>\n</text>
+        <view class="doctor_result">
+            <rich-text nodes="{{article_content}}"></rich-text>
+        </view>
+    </view>
+    <view class="prompt">
+        <text class="prompt_text">如有疑问请及时联系您的主治医生</text>
+    </view>
 </view>

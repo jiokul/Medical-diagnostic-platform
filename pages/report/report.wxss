@@ -1,0 +1,93 @@
+.tittle{
+    margin: auto;
+    width: 100%;
+    height: 70rpx;
+    text-align: center;
+}
+.tittle_text1{
+    margin-left: auto;
+    font-size: large;
+}
+.tittle_text2{
+    margin: auto;
+    font-size: large;
+}
+.userinfo_first{
+    margin-top: 2%;
+}
+.userinfo_second{
+    margin-top: 2%;
+}
+.prompt{
+    text-align: center;
+    margin-top: 15rpx;
+}
+.line1{
+    border-top:5px solid #020202;
+}
+.moudel1{
+    border-left: 5px solid #0d66f5;
+    margin-left: 3%;
+    font-size: 30rpx;
+    font-weight: 900;
+}
+.moudel2{
+    border-left: 5px solid #0d66f5;
+    margin-left: 3%;
+    font-size: 30rpx;
+    font-weight: 900;
+    margin-top: 90rpx;
+}
+
+.image_first{
+    width: 350rpx;
+    height: 350rpx;
+    margin-left: 15rpx;
+    margin-top: 15rpx;
+}
+.image_second{
+    width: 350rpx;
+    height: 350rpx;
+    margin-left: 25rpx;
+}
+.images1{
+    margin-top: 15rpx;
+}
+.image_riginally{
+    text-align: center;
+    display: inline-block;
+}
+.imgae_segmentation{
+    text-align: center;
+    display: inline-block;
+
+}
+.userinfo{
+    font-size: small;
+    margin-top: 15rpx;
+}
+.name1{
+    margin-left: 10%;
+}
+.name2{
+    margin-left: 25%;
+}
+.project{
+    margin-left: 10%;
+}
+.time{
+    margin-left: 21%;
+}
+.doctor_result{
+    width: 90%;
+    height: 200rpx;
+    border: 2px solid #020202;
+    margin-left: 5%;
+    margin-top: 15rpx;
+}
+.diagnosis_result{
+    margin-top: 15rpx;
+}
+.diagnosis_advise{
+    margin-top: 15rpx;
+}
